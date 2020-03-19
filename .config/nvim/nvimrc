@@ -1,0 +1,32 @@
+set nocompatible               " be improved, required
+filetype off                   " required 
+"set the runtime path to include Vundle and initialize
+set rtp+=~/.config/nvim/bundle/Vundle.vim
+call vundle#begin()            " required
+Plugin 'VundleVim/Vundle.vim'  " required
+Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plugin 'jiangmiao/auto-pairs' 
+Plugin 'zchee/deoplete-jedi'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+" ===================
+" my plugins here
+" ===================
+"Plugin 'phanviet/vim-monokai-pro' 
+" ===================
+" end of plugins
+" ===================
+call vundle#end()               " required
+filetype plugin indent on       " required
+ " ===================
+ " Deoplete options
+ " ===================
+let g:deoplete#enable_at_startup = 1
+ " ===================
+ " Remap keys
+ " ===================
+:imap ii <Esc>
+
+
+ " Airline themes
+let g:airline_theme='deus'
