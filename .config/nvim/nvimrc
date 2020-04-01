@@ -9,6 +9,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'zchee/deoplete-jedi'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'ap/vim-css-color'
 " ===================
 " my plugins here
 " ===================
